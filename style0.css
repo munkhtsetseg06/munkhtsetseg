@@ -1,0 +1,170 @@
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body {
+	background-image: url(galaxy.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+
+}
+.ehlel{
+	position: relative;
+	width: 100%;
+	max-width: 1000px;
+	min-height: 1000px;
+	margin: 50px;
+	background: lightcoral;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+ .ehlel .zuun{
+	position: relative;
+	background: rgb(255, 212, 220);
+	padding: 40px;
+	background-image: url
+	background-position: bottom right;
+}
+.ehlel .baruun{
+	position: relative;
+	background-image: url(door.jpg);
+	padding: 40px;
+	background-position: bottom right;
+}
+
+.img{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 80%;
+	overflow: hidden;
+	align-items: center;
+}
+.img img{
+position: absolute;
+top: 0;
+left: 0;
+align-items: center;
+width: 100%;
+height: 100%;
+object-fit: cover;
+background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffreepng%2Fframe-bullet-journal-clipart-leaves-green-png-vector-element_5004069.html&psig=AOvVaw2m3VwKMthEm2EShjxuGEG0&ust=1634867234333000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKCX1pqx2vMCFQAAAAAdAAAAABAx);
+}
+.nuurug .bichih {
+position: relative;
+weight: 200px;
+height: 200px;
+border-radius: 50%;
+overflow: hidden;
+}
+.bichih h3{
+
+}
+.bichih{
+	padding-top: 40px;
+}
+.text{
+	text-transform: uppercase;
+	font-weight: 1px;
+	margin-bottom: 20px;
+	font-size: 1.1em;
+}
+
+.icon{
+position: relative;
+list-style: none;
+margin: 10px 0;
+cursor: pointer;
+font-weight: 200px;
+font-size: 1.1em;
+}
+
+.language .percent{
+position: relative;
+width: 100%;
+height: 6px;
+background: black;
+display: block;
+margin-top: 5px;
+}
+.language{
+	font-size: 1.1em;
+}
+.language .percent div{
+	position: absolute;
+	top: 0;
+	height: 100%;
+	background: white;
+
+}
+.about .box {
+	display: flex;
+	flex-direction: row;
+	margin: 20px 0;
+	font-size: 1.1em;
+}
+.about .text1 h5{
+	text-transform: uppercase;
+	color: lightpink;
+	font-weight: 600;
+}
+.about .text1 h5{
+	text-transform: uppercase;
+	color: hotpink;
+	font-size: 16px;
+
+}
+.about{
+	font-size: 1.1em;
+}
+.skills .box{
+	position: relative;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 150px 1fr;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.1em;
+}
+
+.nuurug h1{
+
+	font-size: 1.5em;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+	line-height: 1.4em;
+
+}
+.nuurug {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+	font-size: 1em;
+}
+.bichih ul li{
+	list-style: none;
+	position: relative;
+	margin: 10px 0;
+	cursor: pointer;
+	
+
+}
+.about{
+	border: 3px solid black;
+	position: relative;
+	padding: 1em;
+	background-color: rgb(255,255, 255);
+	
+
+}
